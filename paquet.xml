@@ -41,4 +41,4 @@
 
 
 
-</paquet>
+</paquet>  <pipeline nom="jqueryui_plugins" inclure="mediaboxAS_pipelines.php" />

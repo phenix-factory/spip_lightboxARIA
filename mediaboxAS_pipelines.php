@@ -10,15 +10,11 @@
  */
 
 if (!defined('_ECRIRE_INC_VERSION')) return;
-	
 
-/*
- * Un fichier de pipelines permet de regrouper
- * les fonctions de branchement de votre plugin
- * sur des pipelines existants.
- */
+// Pipeline jquery UI
+function mediaboxAS_jqueryui_plugins($scripts){
+    $scripts[] = "jquery.ui.core";
+    $scripts[] = "jquery.ui.widget";
 
-
-
-
-?>
+    return $scripts;
+}
