@@ -1,4 +1,4 @@
-/* Lightbox Styles (some are needed)
+/* Lightbox Styles
 ----------------------------------*/
 #ui-lightbox-wrapper {
 	display: none;
@@ -13,54 +13,4 @@
 }
 #ui-lightbox-image img{
 	display: none;
-}
-#ui-lightbox-description {
-	margin: 1em 0;
-}
-
-/* Picture Styles
-----------------------------------*/
-.ui-widget-content {
-	padding: 0 1em 1em 1em;
-}
-.ui-dialog{
-	padding: 0 1em 0 1em !important;
-}
-.box {
-	padding: 0 1em 1em 1em;
-	margin: 0 0 1em 0;
-	height: 14em;
-}
-#mass .box {
-	height: auto;
-}
-a.singleLightbox,
-a.seriesLightbox {
-	padding: 0 0 0.5em 0;
-}
-a.singleLightbox{
-	margin: 0 0.8em 0 0;
-}
-a.ui-state-focus,
-a.ui-state-hover {
-	border-left: 0 !important;
-	border-right: 0 !important;
-}
-ul{
-	margin: 0;
-	padding: 0;
-	display: block;
-}
-ul li{
-	float: left;
-	margin: 0 0.9em 0 0;
-	list-style-type:none;
-}
-#mass ul li{
-	margin: 0 0.85em 0 0;
-}
-#mass ul li.last,
-ul li.last,
-a.last{
-	margin: 0;
 }
