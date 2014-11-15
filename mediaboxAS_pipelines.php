@@ -15,6 +15,7 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 function mediaboxAS_jqueryui_plugins($scripts){
     $scripts[] = "jquery.ui.core";
     $scripts[] = "jquery.ui.widget";
+    $scripts[] = "ui.ariaLightbox";
 
     return $scripts;
 }
