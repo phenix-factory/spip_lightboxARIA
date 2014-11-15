@@ -19,3 +19,10 @@ function mediaboxAS_jqueryui_plugins($scripts){
 
     return $scripts;
 }
+
+function mediaboxAS_insert_head_css($flux) {
+    // Injecter le css de la mediabox ARIA
+    $flux .= "<link rel='stylesheet' type='text/css' media='all' href='".find_in_path('javascript/ui/css/style.css')."' />";
+
+    return $flux;
+}

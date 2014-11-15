@@ -39,4 +39,5 @@
 	-->
 
   <pipeline nom="jqueryui_plugins" inclure="mediaboxAS_pipelines.php" />
+  <pipeline nom="insert_head_css" inclure="mediaboxAS_pipelines.php" />
 </paquet>
