@@ -28,6 +28,10 @@ function mediaboxAS_jquery_plugins($scripts) {
 
 
 function mediaboxAS_insert_head_css($flux) {
+
+    // Charger tout le css de jquery UI
+    $flux .= "<link rel='stylesheet' type='text/css' media='all' href='".find_in_path('css/jquery.ui.all.css')."' />";
+
     // Injecter le css de la mediabox ARIA
     $flux .= "<link rel='stylesheet' type='text/css' media='all' href='".find_in_path('javascript/ui/css/style.css')."' />";
 
