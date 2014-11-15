@@ -3,9 +3,6 @@ $(function () {
         altText: function() {
             return $(this).attr("title");
         },
-        descText: function() {
-            return $(this).attr("title");
-        },
         titleText: function() {
             return $(this).attr("title");
         },
